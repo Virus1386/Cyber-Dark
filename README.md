@@ -14,5 +14,15 @@ pkg install git
 ```
 ##### After installing the above packages with the following command, download the tool:
 ```
-git clone 
+git clone https://github.com/Virus1386/Cyber-Dark.git
 ```
+##### Now that our file has been downloaded, we can enter its directory with the following command:
+```
+cd Cyber-Dark
+```
+##### Finally, we run the tool with the following command!
+```
+python3 Cyber.Dark-V0.0.3.py
+```
+##### Over time, this document will be more complete with tool updates :wink:
+##### Thank you for trying this tool ...
