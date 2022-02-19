@@ -309,9 +309,6 @@ def info() :
     	banner()
     elif exit_or_back == '2'  : 
     	os.system('clear')
-    else : 
-        iran_time = datetime.now(timezone("Iran")).strftime("%H:%M:%S")
-    	print(f'{Fore.RED}[{iran_time}] ERROR 404 ')
 #----------Banner----------#
 def banner() :
      os.system('clear')
@@ -342,7 +339,4 @@ def banner() :
          info()
      elif work == 3 :
          os.system('clear')
-     else : 
-         iran_time = datetime.now(timezone("Iran")).strftime("%H:%M:%S")
-         print(f"{Fore.RED}[{iran_time}] Error 404")
 banner()
