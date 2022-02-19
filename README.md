@@ -26,3 +26,9 @@ python3 Cyber.Dark-V0.0.3.py
 ```
 ##### Over time, this document will be more complete with tool updates :wink:
 ##### Thank you for trying this tool ...
+## How to use bomber sms :
+##### After running the tool, select option 1 
+##### Then we enter our number as follows :
+```
+989302852901
+```
