@@ -22,7 +22,7 @@ cd Cyber-Dark
 ```
 ##### Finally, we run the tool with the following command!
 ```
-python3 Cyber.Dark-V0.0.3.py
+python3 Cyber.Dark-V0.0.9.py
 ```
 ##### Over time, this document will be more complete with tool updates :wink:
 ##### Thank you for trying this tool ...
@@ -32,3 +32,6 @@ python3 Cyber.Dark-V0.0.3.py
 ```
 989302852901
 ```
+## Use Telegram anti-filter : 
+##### After running the tool, select the Telegram anti-filter option
+##### Then make the settings mentioned in the Telegram channel! [From this link you can go to the desired post]()
