@@ -373,59 +373,59 @@ def html() :
 def telspamer() :
   os.system('clear')
   print(Fore.GREEN+r'''
-    _____
+     _____
     / ___/
     \__ \
-  ___/ /
+   ___/ /
   /____/
     ''')
   time.sleep(1)
   os.system('clear')
   print(r'''
-    _____
+     _____
     / ___/____  
     \__ \/ __ \
-  ___/ / /_/ /
+   ___/ / /_/ /
   /____/ .___/
       /_/    
     ''')
   time.sleep(1)
   os.system('clear')
   print(r'''
-    _____
+     _____
     / ___/____  ____ 
     \__ \/ __ \/ __ `
-  ___/ / /_/ / /_/ /
+    ___/ / /_/ / /_/ /
   /____/ .___/\__,_/
       /_/    
     ''')
   time.sleep(1)
   os.system('clear')
   print(r'''
-    _____
+     _____
     / ___/____  ____ _____ ___  
     \__ \/ __ \/ __ `/ __ `__ \
-  ___/ / /_/ / /_/ / / / / / /
+   ___/ / /_/ / /_/ / / / / / /
   /____/ .___/\__,_/_/ /_/ /_/
       /_/    
     ''')
   time.sleep(1)
   os.system('clear')
   print(r'''
-    _____
+     _____
     / ___/____  ____ _____ ___  ___  
     \__ \/ __ \/ __ `/ __ `__ \/ _ \
-  ___/ / /_/ / /_/ / / / / / /  __/
+   ___/ / /_/ / /_/ / / / / / /  __/
   /____/ .___/\__,_/_/ /_/ /_/\___/
       /_/    
     ''')
   time.sleep(1)
   os.system('clear')
   print(r'''
-    _____
+     _____
     / ___/____  ____ _____ ___  ___  _____
     \__ \/ __ \/ __ `/ __ `__ \/ _ \/ ___/
-  ___/ / /_/ / /_/ / / / / / /  __/ /    
+   ___/ / /_/ / /_/ / / / / / /  __/ /    
   /____/ .___/\__,_/_/ /_/ /_/\___/_/     
       /_/    
     ''')
@@ -447,59 +447,59 @@ def telspamer() :
   WORK = 1
   if WORK == 1 :
       print(Fore.GREEN+r'''
-        _____
+         _____
         / ___/
         \__ \
-      ___/ /
+       ___/ /
       /____/
         ''')
       time.sleep(0.5)
       os.system('clear')
       print(r'''
-        _____
+         _____
         / ___/____  
         \__ \/ __ \
-      ___/ / /_/ /
+       ___/ / /_/ /
       /____/ .___/
           /_/    
         ''')
       time.sleep(0.5)
       os.system('clear')
       print(r'''
-        _____
+         _____
         / ___/____  ____ 
         \__ \/ __ \/ __ `
-      ___/ / /_/ / /_/ /
+       ___/ / /_/ / /_/ /
       /____/ .___/\__,_/
           /_/    
         ''')
       time.sleep(0.5)
       os.system('clear')
       print(r'''
-        _____
+         _____
         / ___/____  ____ _____ ___  
         \__ \/ __ \/ __ `/ __ `__ \
-      ___/ / /_/ / /_/ / / / / / /
+       ___/ / /_/ / /_/ / / / / / /
       /____/ .___/\__,_/_/ /_/ /_/
           /_/    
         ''')
       time.sleep(0.5)
       os.system('clear')
       print(r'''
-        _____
+         _____
         / ___/____  ____ _____ ___  ___  
         \__ \/ __ \/ __ `/ __ `__ \/ _ \
-      ___/ / /_/ / /_/ / / / / / /  __/
+       ___/ / /_/ / /_/ / / / / / /  __/
       /____/ .___/\__,_/_/ /_/ /_/\___/
           /_/    
         ''')
       time.sleep(0.5)
       os.system('clear')
       print(r'''
-        _____
+         _____
         / ___/____  ____ _____ ___  ___  _____
         \__ \/ __ \/ __ `/ __ `__ \/ _ \/ ___/
-      ___/ / /_/ / /_/ / / / / / /  __/ /    
+       ___/ / /_/ / /_/ / / / / / /  __/ /    
       /____/ .___/\__,_/_/ /_/ /_/\___/_/     
           /_/    
         ''')
@@ -550,7 +550,7 @@ def telspamer() :
       print(f"[{iran_time}] Bot Started !")
       #-----Bot-----#
       bot = telebot.TeleBot(TOKEN)
-      now_time = datetime.datetime.now().strftime("%H : %M : %S")
+      now_time = datetime.now(timezone("Iran")).strftime("%H:%M:%S")
       SEND_1 = bot.send_message(CHAT_ID , f'Bot Started ! [{now_time}]').message_id
       bot_spam = TelegramClient(
       session = "spam" , 
@@ -564,7 +564,7 @@ def telspamer() :
           await bot_spam.send_message( "@GT_MemberRoBot" , '/start')
           await bot_spam.send_message( TARGET , str(TEXT_SEND))
           await bot_spam.send_message( TARGET , str(TEXT_SEND))
-          now_time = datetime.datetime.now().strftime("%H : %M : %S")
+          now_time = datetime.now(timezone("Iran")).strftime("%H:%M:%S")
           bot.edit_message_text(f"""Bot Started ! 
           last update[{str(now_time)}]
           Channel : @CyberDarker
